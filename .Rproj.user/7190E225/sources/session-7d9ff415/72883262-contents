@@ -1,0 +1,60 @@
+---
+title: my title
+author:
+  - name: Michi Berger
+    email: mic@gmx.de
+    corresponding: true
+abstract: My abstract is short.
+word-count: true
+floatsintext: true
+numbered-lines: false
+mask: false
+no-ampersand-parenthetical: false
+meta-analysis: true
+lang: en
+blank-lines-above-title: 2
+blank-lines-above-author-note: 2
+format:
+  apaquarto-html:
+    toc: true
+  apaquarto-pdf:
+    documentmode: stu
+    course: DSDA
+    professor: Prof. Dr. Stephan Huber
+    duedate: '2026-02-19'
+    keep-tex: false
+---
+
+<!-- The introduction should not have a level-1 heading such as Introduction. -->
+
+## Section in Introduction
+
+## Another Section in Introduction
+
+# Method
+
+## Participants
+
+## Measures
+
+## Procedure
+
+# Results
+
+# Discussion
+
+## Limitations and Future Directions
+
+## Conclusion
+
+# References
+
+<!-- References will auto-populate in the refs div below -->
+
+::: {#refs}
+:::
+
+# This Section Is an Appendix {#apx-a}
+
+# Another Appendix {#apx-b}
+  
